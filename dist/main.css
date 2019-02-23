@@ -895,6 +895,7 @@ pre,
 samp {
   font-family: Menlo, Monaco, "Courier New", monospace;
   font-size: 0.875em;
+  border-radius: 0.375em;
 }
 
 code {
@@ -946,6 +947,7 @@ pre code {
   padding: 0.5em 0.6875em;
   text-decoration: none;
   white-space: normal;
+  border-radius: 0.375em;
 }
 
 .btn:hover, .btn:active, .btn.active {
@@ -1002,9 +1004,9 @@ pre code {
  * Block-level buttons
  */
 .btn-block,
-input[type="submit"].btn-block,
-input[type="reset"].btn-block,
-input[type="button"].btn-block {
+input[type='submit'].btn-block,
+input[type='reset'].btn-block,
+input[type='button'].btn-block {
   display: block;
   margin-right: 0;
   padding-right: 0;
@@ -1017,9 +1019,9 @@ input[type="button"].btn-block {
  */
 .btn,
 button,
-html input[type="button"],
-input[type="reset"],
-input[type="submit"] {
+html input[type='button'],
+input[type='reset'],
+input[type='submit'] {
   cursor: pointer;
   text-align: center;
   vertical-align: middle;
